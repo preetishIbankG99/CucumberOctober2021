@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^user is on home page$",
+    "steps": [
+      {
+        "name": "user is on home page",
+        "aggregatedDurations": {
+          "average": 0.015214288,
+          "median": 0.015214288
+        },
+        "durations": [
+          {
+            "duration": 0.015214288,
+            "location": "Features/TestNgLogin.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user is already on Login Page$",
+    "steps": [
+      {
+        "name": "user is already on Login Page",
+        "aggregatedDurations": {
+          "average": 13.349517857,
+          "median": 13.349517857
+        },
+        "durations": [
+          {
+            "duration": 13.349517857,
+            "location": "Features/TestNgLogin.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^title of login page is Orange HRM$",
+    "steps": [
+      {
+        "name": "title of login page is Orange HRM",
+        "aggregatedDurations": {
+          "average": 0.017212879,
+          "median": 0.017212879
+        },
+        "durations": [
+          {
+            "duration": 0.017212879,
+            "location": "Features/TestNgLogin.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user enters \"(.*)\" and \"(.*)\"$",
+    "steps": [
+      {
+        "name": "user enters \"Admin\" and \"admin123\"",
+        "aggregatedDurations": {
+          "average": 0.566172235,
+          "median": 0.566172235
+        },
+        "durations": [
+          {
+            "duration": 0.566172235,
+            "location": "Features/TestNgLogin.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on login button$",
+    "steps": [
+      {
+        "name": "user clicks on login button",
+        "aggregatedDurations": {
+          "average": 5.852435355,
+          "median": 5.852435355
+        },
+        "durations": [
+          {
+            "duration": 5.852435355,
+            "location": "Features/TestNgLogin.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Close the browser$",
+    "steps": [
+      {
+        "name": "Close the browser",
+        "aggregatedDurations": {
+          "average": 2.14328441,
+          "median": 2.14328441
+        },
+        "durations": [
+          {
+            "duration": 2.14328441,
+            "location": "Features/TestNgLogin.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

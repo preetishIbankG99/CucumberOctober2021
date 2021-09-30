@@ -1,0 +1,19 @@
+Feature: Free OrangeHRM Login Feature
+
+  Scenario Outline: Free OrangeHRM Login Test Scenario # Features/TestNgLogin.feature:3
+    Given user is already on Login Page
+    When title of login page is Orange HRM
+    Then user enters "<username>" and "<password>"
+    Then user clicks on login button
+    Then user is on home page
+    Then Close the browser
+
+    Examples: 
+
+  Scenario Outline: Free OrangeHRM Login Test Scenario # Features/TestNgLogin.feature:13
+    Given user is already on Login Page                # LoginStepDefinition.user_already_on_login_page()
+    When title of login page is Orange HRM             # LoginStepDefinition.title_of_login_page_is_Orange_HRM()
+    Then user enters "Admin" and "admin123"            # LoginStepDefinition.user_enters_username_and_password(String,String)
+    Then user clicks on login button                   # LoginStepDefinition.user_clicks_on_login_button()
+    Then user is on home page                          # LoginStepDefinition.user_is_on_hopme_page()
+    Then Close the browser                             # LoginStepDefinition.close_the_browser()
